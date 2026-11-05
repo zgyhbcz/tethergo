@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">热点直达</string>
+    <string name="no_tether_settings">未能打开系统共享网络设置</string>
+
+    <string name="shortcut_advanced_short">更多热点设置</string>
+    <string name="shortcut_advanced_long">更多热点设置（含 USB 共享）</string>
+    <string name="shortcut_tether_short">个人热点</string>
+    <string name="shortcut_tether_long">个人热点设置</string>
+    <string name="shortcut_disabled">不可用</string>
+
+    <string name="tile_label">USB 共享网络</string>
+</resources>
