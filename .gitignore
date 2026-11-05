@@ -1,0 +1,10 @@
+# Build outputs
+.gradle/
+build/
+app/build/
+local.properties
+
+# Signing material — never commit these
+release.keystore
+keystore.properties
+*.jks
