@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Long-press shortcuts on the launcher icon. -->
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <shortcut
+        android:shortcutId="advanced"
+        android:enabled="true"
+        android:icon="@drawable/ic_shortcut_advanced"
+        android:shortcutShortLabel="@string/shortcut_advanced_short"
+        android:shortcutLongLabel="@string/shortcut_advanced_long"
+        android:shortcutDisabledMessage="@string/shortcut_disabled">
+        <intent
+            android:action="com.example.usbshortcut.OPEN_ADVANCED"
+            android:targetClass="com.example.usbshortcut.MainActivity"
+            android:targetPackage="com.example.usbshortcut" />
+    </shortcut>
+
+    <shortcut
+        android:shortcutId="tether"
+        android:enabled="true"
+        android:icon="@drawable/ic_shortcut_tether"
+        android:shortcutShortLabel="@string/shortcut_tether_short"
+        android:shortcutLongLabel="@string/shortcut_tether_long"
+        android:shortcutDisabledMessage="@string/shortcut_disabled">
+        <intent
+            android:action="com.example.usbshortcut.OPEN_TETHER"
+            android:targetClass="com.example.usbshortcut.MainActivity"
+            android:targetPackage="com.example.usbshortcut" />
+    </shortcut>
+
+</shortcuts>
