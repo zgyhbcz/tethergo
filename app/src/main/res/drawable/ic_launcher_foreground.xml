@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- USB trident glyph, drawn inside the 66dp adaptive-icon safe zone. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- stem -->
+    <path
+        android:pathData="M54,78 L54,36"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="6"
+        android:strokeLineCap="round" />
+
+    <!-- left branch + round terminal -->
+    <path
+        android:pathData="M54,63 L41,51"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="6"
+        android:strokeLineCap="round" />
+    <path
+        android:pathData="M41,51 m-6.5,0 a6.5,6.5 0 1,0 13,0 a6.5,6.5 0 1,0 -13,0"
+        android:fillColor="#FFFFFF" />
+
+    <!-- right branch + square terminal -->
+    <path
+        android:pathData="M54,55 L69,43"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="6"
+        android:strokeLineCap="round" />
+    <path
+        android:pathData="M64.5,38.5 h9 v9 h-9 z"
+        android:fillColor="#FFFFFF" />
+
+    <!-- arrow head -->
+    <path
+        android:pathData="M54,21 L64,37 L44,37 Z"
+        android:fillColor="#FFFFFF" />
+
+</vector>
